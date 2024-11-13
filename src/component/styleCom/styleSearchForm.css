@@ -1,0 +1,61 @@
+.banner-se {
+  height: 240px;
+  position: relative;
+}
+
+.icon-f {
+  width: 26px;
+  height: 26px;
+  float: right;
+}
+
+.form-bn {
+  width: 500px;
+  background-color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input-group {
+  border-bottom: 3px solid blue;
+  overflow: auto;
+  padding: 13px 13px 13px 20px;
+}
+
+.input-group input {
+  float: left;
+  font-size: 19px;
+  width: 400px;
+  border-style: none;
+}
+
+.input-group .icon-f {
+  float: right;
+}
+
+.button-group {
+  padding: 18px;
+  overflow: auto;
+}
+
+.button-group button {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.button-group button:active {
+  box-shadow: 2px 2px 3px 1px #333 inset;
+}
+
+.search {
+  background-color: #00b8e8;
+  color: white;
+}
+
+.reset {
+  background-color: white;
+}

@@ -1,0 +1,29 @@
+.banner {
+  height: 280px;
+  padding: 20px;
+  position: relative;
+}
+
+.text {
+  color: white;
+  width: 300px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.p p {
+  font-size: 12px;
+  text-overflow: clip;
+}
+
+.p {
+  height: 100px;
+  overflow: hidden;
+}
+
+.text button {
+  color: white;
+  margin: 10px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
